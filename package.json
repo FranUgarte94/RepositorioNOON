@@ -1,7 +1,7 @@
 {
   "name": "pagina-noon",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web de la banda No Moderation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/FranUgarte94/RepositorioNOON.git"
   },
-  "author": "",
+  "author": "Francisco Ugarte",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FranUgarte94/RepositorioNOON/issues"
