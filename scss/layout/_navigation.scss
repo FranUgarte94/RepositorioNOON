@@ -1,0 +1,72 @@
+@import "../utilities/variables";
+
+/* Nav Bar */
+
+.logo-noon {
+    width: 50px;
+
+    @media (max-width: 991px) {
+        display: none;
+    }
+}
+
+.logo-noon-largo {
+    width: 180px;
+
+    @media (min-width: 991px) {
+        display: none;
+    }
+}
+
+.nav-bar {
+    background-color: $color-black-transparent !important;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    
+    a {
+        color: $color-white !important;
+
+        &:hover {
+            color: $color-pink-noon !important;
+            text-shadow: 1px 1px 10px rgba(179, 179, 179, 0.788);
+
+        @media (max-width: 991px) {
+                transform: scale(1.01) !important;
+                transition: all 0.2s linear;
+
+                &:active {
+                    color: $color-pink-noon !important;
+                    animation-duration: 2s;
+                }
+
+        }
+
+        @media (min-width: 991px) {
+
+                transform: scale(1.2) !important;
+                transition: all 0.2s linear;
+            }
+
+        }
+    }
+}
+
+.drop-menu-back {
+    background-color: $color-black-noon;
+}
+
+.hamburguesa {
+    background-color: $color-black-noon;
+}
+
+.nav-mobile {
+    color: $color-pink-noon;
+}
+
+.menu-item {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+

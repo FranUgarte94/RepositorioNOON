@@ -1,0 +1,47 @@
+/* Footer Redes */
+
+.redes {
+    display: block;
+    padding: 50px;
+    height: 100px;
+    text-align: center;
+    color: $color-white;
+    
+    a {
+        text-decoration: none;
+    }
+
+    i {
+        padding: 30px;
+        font-size: 40px;
+        color: $color-white;
+
+        &:hover {
+            color: $color-pink-noon;
+            transform: scale(1.2);
+            transition: all 0.2s linear;
+            text-shadow: 1px 1px 10px black;
+        }
+
+        &:active {
+            color: $color-pink-noon;
+        }
+
+}
+}
+
+
+/* Pie de Pagina */
+
+#pieDePagina {
+    position: fixed;
+    bottom: 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+
+}
+
+#grid {
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 0, 0));
+    color: gray;
+}

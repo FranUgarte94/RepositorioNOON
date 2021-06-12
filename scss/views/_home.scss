@@ -1,0 +1,84 @@
+@import "../utilities/variables";
+@import "../utilities/extends";
+@import "../utilities/mixins";
+
+/* Fondo de pagina */
+
+body {
+    background-image: url("../images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Elegimos si la imagen se queda fija o no mientras se scrollea */
+    /* cover para que cubra toda la pagina */
+    background-size: cover;
+}
+
+
+/* Linea de separacion */
+
+.linea-larga {
+    @include linea (80%)
+}
+
+.linea-corta {
+    @include linea (60%)
+}
+
+/* Foto Home y Tour */
+
+@media (max-width: 991px) {
+    .section-imagen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-imagen {
+        display: flex;
+        justify-content: space-around;
+
+        width: 300px;
+        margin: 10px 0;
+        background-color: rgba(0, 0, 0, 0.575);
+        border-radius: 20px;
+    }
+
+    .item-relative {
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+
+        img {
+            width: 280px;
+            border-radius: 20px;
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .section-imagen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-imagen {
+        display: flex;
+        justify-content: space-around;
+
+        width: 900px;
+        margin: 50px 0;
+        background-color: rgba(0, 0, 0, 0.575);
+        border-radius: 20px;
+    }
+
+    .item-relative {
+        position: relative;
+
+        bottom: 30px;
+        left: 30px;
+
+        img {
+            width: 900px;
+            border-radius: 20px;
+        }
+    }
+}

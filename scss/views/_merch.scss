@@ -1,0 +1,21 @@
+/* Merch */
+.tarjetas-merch {
+    background-color: rgba(245, 245, 245, 0.801) !important;
+}
+
+.boton-dinero {
+    background-color: $color-black-noon;
+    color: $color-white;
+
+    &:hover {
+        background-color: $color-pink-noon;
+        color: $color-white;
+    }
+}
+
+.fondo-card-merch {
+    &:hover {
+    background-color: $color-pink-noon;
+    transition: 0.2s all ease-in;
+    }
+}

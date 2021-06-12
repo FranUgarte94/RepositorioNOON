@@ -1,0 +1,31 @@
+.galeria-fotos {
+
+    margin-left: auto;
+    margin-right: auto;
+    @include tamaño (60%, 10px);
+
+    @media (max-width: 991px) {
+        width: 90%;
+    }
+}
+
+.carousel-inner {
+
+    img {
+        border-radius: 20px;
+    }
+}
+
+.videos-galeria {
+    display: flex;
+    justify-content: center;
+
+    .videos {
+        @include tamaño (60%, 20px);
+
+        @media (max-width: 991px) {
+            width: 90%;
+        }
+    }
+}
+

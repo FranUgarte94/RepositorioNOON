@@ -1,0 +1,54 @@
+@import "../utilities/variables";
+
+/* Texto Home */
+
+.texto-home {
+    
+    @extend %flexbox;
+    color: $color-white;
+    font-family: 'Raleway', sans-serif;
+    font-size: $size-text;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1px 1px 5px #b6b6b6b4;
+
+    @media (max-width: 991px) {
+        font-size: 1.5rem;
+    }
+}
+
+.texto-home--modif {
+    @extend %flexbox;
+    color: $color-black-noon;
+    font-family: 'Raleway', sans-serif;
+    font-size: $size-text;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1px 1px 5px #4d4d4db4;
+
+    @media (max-width: 991px) {
+        font-size: 1.5rem;
+    }
+}
+
+/* Tipografia para titulos */
+.titulos {
+    color: $color-white;
+    font-size: $size-titles;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+
+    @media (max-width: 991px) {
+        font-size: 1.5rem;
+    }
+}
+
+
+%texto-bio {
+    font-family: 'Raleway', sans-serif;
+    color: $color-black-noon;
+    font-size: 20px;
+    text-align: center;
+}

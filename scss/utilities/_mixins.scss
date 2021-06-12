@@ -1,0 +1,19 @@
+
+/* Mixin */
+
+@mixin linea ($width-linea) {
+    color: $color-pink-noon;
+    width: $width-linea;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #363636;
+}
+
+@mixin tamaño ($width, $border-radius) {
+width: $width;
+border-radius: $border-radius;
+}

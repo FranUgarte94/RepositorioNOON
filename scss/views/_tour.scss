@@ -1,0 +1,61 @@
+/* Tabla Tour */
+.table-fechas {
+    text-decoration: none;
+    background-color: rgba(245, 245, 245, 0.781);
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+
+    @media (max-width: 991px) {
+        font-size: 1em;
+    }
+    
+}
+
+.table-titles {
+    color: $color-pink-noon;
+    text-shadow: black 2px 2px;
+
+    @media (max-width: 991px) {
+        color: $color-pink-noon;
+        text-shadow: black 1px 1px;
+    }
+}
+
+.boton-entradas {
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.5em;
+    border-radius: 5px;
+
+    &:hover {
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: bold;
+        background-color: $color-pink-noon;
+        transition: 0.2s all linear;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-white;
+        font-weight: bold;
+    }
+}
+
+.table iframe {
+    border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+   .ubicacion {
+       display: none;
+   }
+}
