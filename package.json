@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/FranUgarte94/RepositorioNOON/issues"
   },
-  "homepage": "https://github.com/FranUgarte94/RepositorioNOON#readme"
+  "homepage": "https://github.com/FranUgarte94/RepositorioNOON#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
 }
